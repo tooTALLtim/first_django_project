@@ -1,0 +1,28 @@
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Watching for file changes with StatReloader
+Cannot execute silk_profile as silk is not installed correctly.
+Calling httpbin, hello?
+I read you loud and clear!
+/home/timdavis/Dropbox/coding/django/mosh_lessons/storefront3/storefront/settings.py changed, reloading.
+2023-02-20 17:50:44,824 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-20 17:50:44,940 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-20 17:50:54,973 (INFO) - playground.views - Calling httpbin, hello?
+2023-02-20 17:50:57,486 (INFO) - playground.views - I read you loud and clear!
+2023-02-20 17:51:16,094 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-20 17:51:16,181 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-20 17:51:19,602 (INFO) - playground.views - Calling httpbin, hello?
+2023-02-20 17:51:22,103 (INFO) - playground.views - I read you loud and clear!
+2023-02-20 18:03:23,968 (INFO) - django.utils.autoreload - /home/timdavis/Dropbox/coding/django/mosh_lessons/storefront3/manage.py changed, reloading.
+2023-02-20 18:04:51,147 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-20 18:04:51,225 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-20 18:06:15,494 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-02-20 18:06:15,501 (WARNING) - django.request - Forbidden: /store/collections/
+2023-02-20 18:06:15,507 (WARNING) - django.request - Bad Request: /store/collections/
+2023-02-20 18:08:18,796 (INFO) - django.utils.autoreload - /home/timdavis/Dropbox/coding/django/mosh_lessons/storefront3/storefront/settings/common.py changed, reloading.
+2023-02-20 18:08:19,132 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-20 18:08:19,178 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-20 18:08:24,138 (WARNING) - django.request - Unauthorized: /store/collections/
+2023-02-20 18:08:24,161 (WARNING) - django.request - Forbidden: /store/collections/
+2023-02-20 18:08:24,216 (WARNING) - django.request - Bad Request: /store/collections/
+2023-02-20 18:20:05,999 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
