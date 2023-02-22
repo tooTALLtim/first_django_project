@@ -17,9 +17,15 @@ body {
   padding-top: 3vh;
 }
 
+.onesie {
+  display: flex;
+  justify-content: center;
+}
+
 .button {
   width: 300px;
   height: 45px;
+  margin: 0vw 2vw 0vw 2vw; 
   font-family: 'Roboto', sans-serif;
   font-size: 11px;
   text-transform: uppercase;

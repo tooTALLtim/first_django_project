@@ -157,3 +157,5 @@ Traceback (most recent call last):
 django.urls.exceptions.NoReverseMatch: 'https' is not a registered namespace
 2023-02-21 23:41:55,091 (WARNING) - django.request - Not Found: /robots.txt
 2023-02-21 23:43:38,849 (WARNING) - django.request - Not Found: /robots.txt
+2023-02-22 01:57:19,643 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-22 01:57:19,711 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
