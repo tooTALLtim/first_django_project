@@ -165,3 +165,10 @@ django.urls.exceptions.NoReverseMatch: 'https' is not a registered namespace
 2023-02-22 17:38:54,088 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-02-22 17:38:54,168 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
 2023-02-22 17:38:58,796 (WARNING) - django.request - Not Found: /favicon.ico
+2023-02-22 19:28:52,343 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-22 19:28:52,399 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-22 19:28:54,608 (WARNING) - django.request - Not Found: /favicon.ico
+2023-02-22 19:42:32,865 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-22 19:42:32,921 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-22 19:52:22,673 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-22 19:52:22,757 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
