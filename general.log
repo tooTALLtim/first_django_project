@@ -26,3 +26,134 @@ I read you loud and clear!
 2023-02-20 18:08:24,161 (WARNING) - django.request - Forbidden: /store/collections/
 2023-02-20 18:08:24,216 (WARNING) - django.request - Bad Request: /store/collections/
 2023-02-20 18:20:05,999 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-21 22:55:01,455 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-02-21 22:55:01,546 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-02-21 22:55:04,728 (WARNING) - django.request - Not Found: /favicon.ico
+2023-02-21 23:23:29,565 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'downloadexcel' not found. 'downloadexcel' is not a valid view function or pattern name.
+2023-02-21 23:24:27,319 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/base.py", line 88, in reverse
+    return resolver._reverse_with_prefix(view, prefix, *args, **kwargs)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/resolvers.py", line 828, in _reverse_with_prefix
+    raise NoReverseMatch(msg)
+django.urls.exceptions.NoReverseMatch: Reverse for 'downloadexcel' not found. 'downloadexcel' is not a valid view function or pattern name.
+2023-02-21 23:25:17,642 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'https'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'https' is not a registered namespace
+2023-02-21 23:25:35,469 (ERROR) - django.request - Internal Server Error: /
+Traceback (most recent call last):
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'https'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/exception.py", line 56, in inner
+    response = get_response(request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/core/handlers/base.py", line 220, in _get_response
+    response = response.render()
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 114, in render
+    self.content = self.rendered_content
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/response.py", line 92, in rendered_content
+    return template.render(context, self._request)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/test/utils.py", line 111, in instrumented_test_render
+    return self.nodelist.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'https' is not a registered namespace
+2023-02-21 23:41:55,091 (WARNING) - django.request - Not Found: /robots.txt
+2023-02-21 23:43:38,849 (WARNING) - django.request - Not Found: /robots.txt

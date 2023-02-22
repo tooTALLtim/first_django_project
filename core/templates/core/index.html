@@ -5,11 +5,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Tim's Storefront!</title>
     <link rel="stylesheet" href="{% static 'core/styles.css' %}">
 </head>
 <body>
     <div class="home-page">
+        <h1 class="heading">Welcome to Tim's first App!</h1>
+        <h2 class="subheading"> with help from Jasmyn on the sweet button </h2>
+        <form action="https://timstore-prod.herokuapp.com/store/">
+            <input class="button" type="submit" value="Go to the API Root"/>
+        </form>
         <img src="{% static 'core/tj.jpg' %}" alt="Logo" class="logo">
     </div>
 </body>
