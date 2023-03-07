@@ -1,17 +1,22 @@
 from .common import *
+import environ
+
+# Initialise environment variables
+env = environ.Env()
+environ.Env.read_env()
 
 
 DEBUG = True
 
-SECRET_KEY = 'django-insecure-hs6j037urx6iav+7#10%-vu4l4f5@@-1_zo)oft4g7$vf2$jmp'
+SECRET_KEY = env.str('SECRET_KEY')
 
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'storefront3',
+        'NAME': env('DATABASE_NAME'),
         'HOST': 'localhost',
-        'USER': 'root',
-        'PASSWORD': 'datab4s3!'
+        'USER': env('DATABASE_USER'),
+        'PASSWORD': env('DATABASE_PASSWORD')
     }
 }
 

@@ -177,3 +177,9 @@ django.urls.exceptions.NoReverseMatch: 'https' is not a registered namespace
 2023-02-22 20:15:43,019 (WARNING) - django.request - Not Found: /favicon.ico
 2023-03-07 07:23:32,485 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
 2023-03-07 07:23:32,574 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-03-07 07:27:09,155 (INFO) - django.utils.autoreload - /home/timdavis/.local/share/virtualenvs/storefront3-Wv2fvWkR/lib/python3.10/site-packages/pkg_resources/_vendor/packaging/_tokenizer.py changed, reloading.
+2023-03-07 07:27:09,595 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-07 07:27:09,651 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
+2023-03-07 07:28:35,101 (INFO) - django.utils.autoreload - /home/timdavis/Dropbox/coding/django/mosh_lessons/storefront3/storefront/settings/dev.py changed, reloading.
+2023-03-07 07:32:40,638 (INFO) - django.utils.autoreload - Watching for file changes with StatReloader
+2023-03-07 07:32:40,725 (WARNING) - silk.profiling.profiler - Cannot execute silk_profile as silk is not installed correctly.
